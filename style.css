@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+h1,
+h2 {
+  color: rgb(84, 84, 172);
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: beige;
+  text-align: center;
+
+}
+
+
+.img-circle {
+  border-radius: 50%;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 540px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 300px;
+    /* This sets the width */
+    margin: 0px auto
+      /* This automatically sets left/right margins */
+  }
+}
+
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+  border-radius: 50%;
+
+}
+
+#logo {
+  width: 40;
+}
